@@ -1,6 +1,6 @@
 package se.lexicon;
 
-public class Exercise1_Basic_Exception_Handling {
+public class Exercise5_Finally_Block {
 
     void Divide_By_Zero(){
         int firstNumber = Integer.parseInt(IO.readln("Enter the first interger: "));
@@ -11,6 +11,8 @@ public class Exercise1_Basic_Exception_Handling {
             IO.println("The result is: " + result);
         } catch (ArithmeticException e){
             IO.println("❌ You cannot divide by zero: " + e.getMessage());
+        } finally {
+            IO.println("✅ The calculation is finished.");
         }
     }
 }

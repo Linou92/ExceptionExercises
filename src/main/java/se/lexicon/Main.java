@@ -15,10 +15,14 @@ public class Main {
 
         IO.println("--- Exercise 3: Custom Exception ---");
         Exercise3_Custom_Exception exercise3 =  new Exercise3_Custom_Exception();
-        exercise3.bank();*/
+        exercise3.bank();
 
         IO.println("--- Exercise 4: Nested Try-Catch Blocks ---");
         Exercise4_Nested_Try_Catch_Blocks exercise4 =  new Exercise4_Nested_Try_Catch_Blocks();
-        exercise4.readFile();
+        exercise4.readFile();*/
+
+        IO.println("--- Exercise 5: Finally Block ---");
+        Exercise5_Finally_Block exercise5 =  new Exercise5_Finally_Block();
+        exercise5.Divide_By_Zero();
     }
 }
