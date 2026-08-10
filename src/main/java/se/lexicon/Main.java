@@ -11,10 +11,14 @@ public class Main {
 
         IO.println("--- Exercise 2: Multiple Exception Types ---");
         Exercise2_Multiple_Exception_Types exercise2 = new Exercise2_Multiple_Exception_Types();
-        exercise2.checkRange();*/
+        exercise2.checkRange();
 
         IO.println("--- Exercise 3: Custom Exception ---");
         Exercise3_Custom_Exception exercise3 =  new Exercise3_Custom_Exception();
-        exercise3.bank();
+        exercise3.bank();*/
+
+        IO.println("--- Exercise 4: Nested Try-Catch Blocks ---");
+        Exercise4_Nested_Try_Catch_Blocks exercise4 =  new Exercise4_Nested_Try_Catch_Blocks();
+        exercise4.readFile();
     }
 }
