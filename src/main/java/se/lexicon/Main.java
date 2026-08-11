@@ -23,12 +23,42 @@ public class Main {
 
         IO.println("--- Exercise 5: Finally Block ---");
         Exercise5_Finally_Block exercise5 =  new Exercise5_Finally_Block();
-        exercise5.Divide_By_Zero();*/
+        exercise5.Divide_By_Zero();
 
         IO.println("--- Exercise 6: Throwing Exceptions ---");
         Exercise6_Throwing_Exceptions exercise6 =  new Exercise6_Throwing_Exceptions();
         exercise6.validEmail("Example@hotmail.com");
-        exercise6.validEmail("Example.com");
+        exercise6.validEmail("Example.com");*/
 
+        IO.println("--- Exercise 7: Custom Exceptions for List Operations ---");
+        Exercise7_Custom_Exceptions_For_List_Operations exercise7 = new Exercise7_Custom_Exceptions_For_List_Operations();
+        try{
+            exercise7.addName("Amina");
+            exercise7.addName("John");
+            exercise7.addName("Sara");
+        } catch (DuplicateNameException e) {
+            IO.println(e.getMessage());
+        }
+
+        try {
+            exercise7.addName("Amina");
+
+        } catch (DuplicateNameException e) {
+            IO.println(e.getMessage());
+        }
+
+        try {
+            exercise7.findName("Sara");
+
+        } catch (NameNotFoundException e) {
+            IO.println(e.getMessage());
+        }
+
+        try {
+            exercise7.findName("Ali");
+
+        } catch (NameNotFoundException e) {
+            IO.println(e.getMessage());
+        }
     }
 }
