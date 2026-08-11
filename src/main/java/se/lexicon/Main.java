@@ -19,10 +19,16 @@ public class Main {
 
         IO.println("--- Exercise 4: Nested Try-Catch Blocks ---");
         Exercise4_Nested_Try_Catch_Blocks exercise4 =  new Exercise4_Nested_Try_Catch_Blocks();
-        exercise4.readFile();*/
+        exercise4.readFile();
 
         IO.println("--- Exercise 5: Finally Block ---");
         Exercise5_Finally_Block exercise5 =  new Exercise5_Finally_Block();
-        exercise5.Divide_By_Zero();
+        exercise5.Divide_By_Zero();*/
+
+        IO.println("--- Exercise 6: Throwing Exceptions ---");
+        Exercise6_Throwing_Exceptions exercise6 =  new Exercise6_Throwing_Exceptions();
+        exercise6.validEmail("Example@hotmail.com");
+        exercise6.validEmail("Example.com");
+
     }
 }
