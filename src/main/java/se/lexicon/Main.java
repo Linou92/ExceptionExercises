@@ -28,7 +28,7 @@ public class Main {
         IO.println("--- Exercise 6: Throwing Exceptions ---");
         Exercise6_Throwing_Exceptions exercise6 =  new Exercise6_Throwing_Exceptions();
         exercise6.validEmail("Example@hotmail.com");
-        exercise6.validEmail("Example.com");*/
+        exercise6.validEmail("Example.com");
 
         IO.println("--- Exercise 7: Custom Exceptions for List Operations ---");
         Exercise7_Custom_Exceptions_For_List_Operations exercise7 = new Exercise7_Custom_Exceptions_For_List_Operations();
@@ -59,6 +59,10 @@ public class Main {
 
         } catch (NameNotFoundException e) {
             IO.println(e.getMessage());
-        }
+        }*/
+
+        IO.println("--- Exercise 8: Try-with-Resources ---");
+        Exercise8_Try_With_Resources exercise8 = new Exercise8_Try_With_Resources();
+        exercise8.writeFile();
     }
 }
